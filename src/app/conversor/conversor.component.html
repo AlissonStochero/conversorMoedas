@@ -1,7 +1,7 @@
 <div class="panel">
     <div class="form-group">
         <label for="valor">Valor em reais a ser convertido</label>
-        <input type="number" class="form-control" id="valor" (input)="setValor($event.target.value)"
+        <input type="number" class="form-control" id="valor" placeholder="100,00" (input)="setValor($event.target.value)"
             aria-describedby="valor">
     </div>
     <button type="submit " class="btn btn-success" (click)="converte()"><i class="far fa-money-bill-alt"></i> Converter</button>
