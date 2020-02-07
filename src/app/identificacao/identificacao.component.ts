@@ -15,9 +15,8 @@ export class IdentificacaoComponent implements OnInit {
 
   constructor() { 
     this.nome = 'Alisson Gabriel Stochero'
-    this.formacao = 'Tecnologo em Sistemas Para internet'
+    this.formacao = 'Tecnólogo em Sistemas Para internet'
     this.instituicao = 'Instituto Federal Farroupilha Santo Ângelo'
-    this.numero = '(55) 98419-8590'
    }
 
   ngOnInit(): void {
