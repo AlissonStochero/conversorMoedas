@@ -1,0 +1,8 @@
+.conteudoIdentificacao{
+    background-color:#1976d2;
+    color: white;
+    padding: 20px;
+    border: springgreen;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(139, 139, 139);
+}

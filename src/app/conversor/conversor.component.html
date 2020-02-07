@@ -1,0 +1,17 @@
+<div class="panel">
+    <div class="form-group">
+        <label for="valor">Valor em reais a ser convertido</label>
+        <input type="number" class="form-control" id="valor" (input)="setValor($event.target.value)"
+            aria-describedby="valor">
+    </div>
+    <button type="submit " class="btn btn-success" (click)="converte()"><i class="far fa-money-bill-alt"></i> Converter</button>
+    <hr>
+    <div class="resultado">
+        <h3>Resultado</h3>
+        <div class="p-3">
+            <p><strong><i class="fas fa-dollar-sign"></i> Dólar:</strong> {{getDolar()}}</p>
+            <p><strong><i class="fas fa-euro-sign"></i> Euro:</strong> {{getEuro()}}</p>
+            <p><strong><i class="fas fa-lira-sign"></i> Libras:</strong> {{getLibra()}}</p>
+        </div>
+    </div>
+</div>
